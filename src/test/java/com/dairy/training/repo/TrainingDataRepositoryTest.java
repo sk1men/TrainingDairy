@@ -16,12 +16,4 @@ public class TrainingDataRepositoryTest {
 
     }
 
-    //assertEquals(int1, int2)  Проверяет на равенство двух значений любого примитивного типа;
-    //assertTrue  //assertFalse(condition)
-    //assertNull  //assertNotNull(obj)
-    //assertSame(obj1, obj2)    Позволяет сравнивать объектные переменные
-    // @Before, @After, @BeforeClass, @AfterClass.
-    //http://www.quizful.net/post/parameterized-junit-tests розібратися
-    //    https://habrahabr.ru/post/120101/
-
 }
