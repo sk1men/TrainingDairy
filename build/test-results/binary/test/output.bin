@@ -1,2 +1,0 @@
-R16:39:25.831 [Test worker] DEBUG c.d.t.s.TrainingDairyServiceImpl - LOGGER.debug
-Q16:39:25.847 [Test worker] INFO  c.d.t.s.TrainingDairyServiceImpl - logger.info

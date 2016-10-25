@@ -8,6 +8,7 @@ import java.util.List;
 
 import com.dairy.training.api.TrainingDay;
 import com.dairy.training.repo.TrainingDataRepository;
+import com.dairy.training.repo.TrainingRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,21 +16,23 @@ import org.slf4j.LoggerFactory;
 public class TrainingDairyServiceImpl implements TrainingDairyService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(TrainingDairyServiceImpl.class);
-    private TrainingDataRepository tdr = new TrainingDataRepository();
+
+    private final TrainingRepository trainingDataRepository;
+
+    public TrainingDairyServiceImpl(TrainingRepository trainingDataRepository) {
+        this.trainingDataRepository = trainingDataRepository;
+    }
 
     @Override
     public List<TrainingDay> getTrainingDays(String login, LocalDate fromDate, LocalDate toDate) {
-        return tdr.getTrainingDays(login, fromDate, toDate);
+        LOGGER.debug("Fetching training days for user {} for period {} - {} ", login, fromDate, toDate);
+        return trainingDataRepository.getTrainingDays(login, fromDate, toDate);
     }
 
     @Override
     public List<Exercise> getTrainingExercises(String login, LocalDate date) {
-
-        LOGGER.debug("LOGGER.debug", login, date);
-        Logger logger = LoggerFactory.getLogger(TrainingDairyServiceImpl.class);
-        logger.info("logger.info");
-
-        return tdr.getTrainingDaysExercises(date);
+        LOGGER.debug("Fetching training exercises for user {} for {} ",login , date);
+        return trainingDataRepository.getTrainingDaysExercises(login, date);
     }
 }
 
