@@ -1,0 +1,61 @@
+package com.dairy.training.schedule.trainingIntelligence;
+
+public class MuscleGroupName {
+
+    String muscleGroupName1 = "Плечи";
+//        Exercise exercisesShld1 = new IteratedExercise("Жим стоя", 20, 10, 5);
+//        Exercise exercisesShld2 = new IteratedExercise("Жим гантелямей сидя", 14, 12, 3);
+//        Exercise exercisesShld3 = new IteratedExercise("Жим из-за головы", 30, 10, 4);
+//        Exercise exercisesShld4 = new IteratedExercise("Тяга к подборотку", 30, 8, 3);
+//        Exercise exercisesShld5 = new IteratedExercise("Махи перед собой", 8, 12, 4);
+//        Exercise exercisesShld6 = new IteratedExercise("Махи в сторону", 6, 12, 4);
+    String muscleGroupName2 = "Бицепс";
+//        Exercise exercisesBcp1 = new IteratedExercise("Бицепс стоя", 30, 8, 4);
+//        Exercise exercisesBcp2 = new IteratedExercise("Бицепс гантелями", 10, 12, 3);
+    String muscleGroupName3 = "Трицепс";
+//        Exercise exercisesTr1 = new IteratedExercise("Жим средним хватом", 30, 10, 4);
+//        Exercise exercisesTr2 = new IteratedExercise("Брусья", 0, 8, 4);
+//        Exercise exercisesTr3 = new IteratedExercise("Французкий жим", 15, 10, 4);
+//        Exercise exercisesTr4 = new IteratedExercise("Трицепс на блоке", 20, 12, 5);
+//        Exercise exercisesTr5 = new IteratedExercise("Разгибание с гантелью из-за головы", 6, 12, 4);
+    String muscleGroupName4 = "Предплечья";
+    String muscleGroupName5 = "Кисти";
+    String muscleGroupName6 = "Трапеции";
+//        Exercise exercisesTr = new IteratedExercise("Шраги", 60, 15, 3);
+    String muscleGroupName7 = "Широчайшие";
+//        Exercise exercisesBck1 = new IteratedExercise("Тяга верхнего блока", 30, 10, 4);
+//        Exercise exercisesBck2 = new IteratedExercise("Подтягивания", 30, 10, 4);
+//        Exercise exercisesBck3 = new IteratedExercise("Подтягивания обратным хватом", 40, 8, 5);
+//        Exercise exercisesBck4 = new IteratedExercise("Тяга нижнего блока", 40, 8, 4);
+    String muscleGroupName8 = "Поясница";
+    String muscleGroupName9 = "Квадрицепс";
+//        Exercise exercisesLg1 = new IteratedExercise("Присед", 20, 10, 6);
+//        Exercise exercisesLg2 = new IteratedExercise("Присед фронтальный", 20, 8, 4);
+//        Exercise exercisesLg3 = new IteratedExercise("Жим ногами", 80, 8, 5);
+//        Exercise exercisesLg4 = new IteratedExercise("Разгибание ног", 40, 12, 4);
+//        Exercise exercisesLg5 = new IteratedExercise("Приводящие", 20, 8, 4);
+    String muscleGroupName10 = "Бицепс бедра/ягодицы";//Поясница
+//        Exercise exercisesDl1 = new IteratedExercise("Тяга сумо", 50, 8, 6);
+//        Exercise exercisesDl2 = new IteratedExercise("Тяга классическая", 40, 10, 4);
+//        Exercise exercisesDl3 = new IteratedExercise("Гиперэкстензии", 5, 12, 4);
+//        Exercise exercisesDl4 = new IteratedExercise("Наклоны", 20, 10, 4);
+//        Exercise exercisesDl5 = new IteratedExercise("Сгибание ног", 30, 8, 4);
+//        Exercise exercisesDl6 = new IteratedExercise("Выпады", 20, 8, 4);
+    String muscleGroupName11 = "Икры";
+    String muscleGroupName12 = "Грудь";
+//        Exercise exercisesCh1 = new IteratedExercise("Жим", 40, 12, 4);
+//        Exercise exercisesCh2 = new IteratedExercise("Жим 30", 30, 10, 4);
+//        Exercise exercisesCh3 = new IteratedExercise("Жим 45", 30, 10, 4);
+//        Exercise exercisesCh4 = new IteratedExercise("Жим гантелей", 10, 12, 4);
+//        Exercise exercisesCh5 = new IteratedExercise("Кроссовер", 10, 10, 5);
+//        Exercise exercisesCh6 = new IteratedExercise("Отжимания", 30, 15, 4);
+    String muscleGroupName13 = "Прес";
+//        Exercise exercisesCr1 = new IteratedExercise("Пресс на тренажере с весом", 15, 12, 5);
+//        Exercise exercisesCr2 = new IteratedExercise("Скручивания", 0, 12, 4);
+//        Exercise exercisesCr3 = new IteratedExercise("Подъем ног к перекладине", 0, 12, 4);
+    String groupName14 = "Кардио";
+//        Exercise cardio1 = new IntervalExercise("Бег", Duration.ofSeconds(600), 2f);
+//        Exercise cardio2 = new IntervalExercise("Велотренажер", Duration.ofSeconds(900), 1f);
+//        Exercise cardio3 = new IntervalExercise("Хотьба по леснице", Duration.ofSeconds(600), 1f);
+//        Exercise cardio4 = new IntervalExercise("Канат", Duration.ofSeconds(60), 4f);
+}
