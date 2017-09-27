@@ -1,27 +1,30 @@
 package com.dairy.training.api;
 
 
+import java.util.List;
 import java.util.Objects;
 
 public class IteratedExercise extends Exercise {
 
-    public int weight;
+    float MW;
+    List<Set> set;
 
-    public int sets;
-    public int reps;
-
-    public IteratedExercise(String name, int weight, int sets, int reps) {
+    public IteratedExercise(String name, int weight, int set, int rep) {
         super.name = name;
-        this.weight = weight;
-        this.sets = sets;
-        this.reps = reps;
+        this.set.add(new Set(weight, set, rep));
     }
+
+    public IteratedExercise(String name, float percent, int set, int rep) {
+        super.name = name;
+        this.set.add(new Set(percent, set, rep));
+    }
+
 
     @Override
     public String toString() {
-        return super.name + " " + weight +
-                "кг " + sets +
-                "x" + reps + '\n';
+        return "IteratedExercise{" +
+                " set=" + set +
+                '}';
     }
 
     @Override
@@ -29,13 +32,11 @@ public class IteratedExercise extends Exercise {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         IteratedExercise that = (IteratedExercise) o;
-        return weight == that.weight &&
-                sets == that.sets &&
-                reps == that.reps;
+        return Objects.equals(set, that.set);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(weight, sets, reps);
+        return Objects.hash(set);
     }
 }

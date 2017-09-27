@@ -4,7 +4,6 @@ import com.dairy.training.api.Exercise;
 import com.dairy.training.api.IntervalExercise;
 import com.dairy.training.api.IteratedExercise;
 import com.dairy.training.api.TrainingDay;
-import com.dairy.training.service.TrainingDairyServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

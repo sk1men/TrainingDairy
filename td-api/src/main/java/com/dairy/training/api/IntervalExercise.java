@@ -15,6 +15,24 @@ public class IntervalExercise extends Exercise {
         this.quantity = quantity;
     }
 
+    public IntervalExercise(String name,Duration time) {
+        super.name = name;
+        this.time = time;
+    }
+
+    public IntervalExercise(String name,float quantity) {
+        super.name = name;
+        this.quantity = quantity;
+    }
+
+    public void addTime(Duration time) {
+        this.time = this.time.plus(time);
+    }
+
+    public void addQuantity(int quantity) {
+        this.quantity += quantity;
+    }
+
     @Override
     public String toString() {
         return super.name + " " + time.getSeconds() +

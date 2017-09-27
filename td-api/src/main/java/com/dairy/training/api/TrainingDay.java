@@ -1,13 +1,11 @@
 package com.dairy.training.api;
 
 
-import javax.xml.crypto.Data;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class TrainingDay {
+
     public LocalDate date;
 
     public boolean status;

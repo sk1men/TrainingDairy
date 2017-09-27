@@ -1,21 +1,14 @@
 package com.dairy.training.service;
 
 import com.dairy.training.api.*;
-import com.dairy.training.repo.TrainingDataRepository;
 import com.dairy.training.repo.TrainingRepository;
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 import org.mockito.Mockito;
-import sun.plugin.javascript.navig.Array;
 
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.Month;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;

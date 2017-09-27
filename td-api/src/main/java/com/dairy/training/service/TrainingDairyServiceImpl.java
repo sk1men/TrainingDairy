@@ -7,7 +7,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 import com.dairy.training.api.TrainingDay;
-import com.dairy.training.repo.TrainingDataRepository;
 import com.dairy.training.repo.TrainingRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
